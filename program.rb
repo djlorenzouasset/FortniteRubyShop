@@ -3,9 +3,9 @@ require 'uri'
 require 'json'
 require 'colorize'
 
-puts "Program made by djlorenzouasset".cyan
+puts "Program made by djlorenzouasset\n".cyan
 
-puts "Requesting data..".green
+puts "Requesting data..\n".green
 
 url = URI.parse('https://fortnite-api.com/v2/shop/br/combined')
 
@@ -13,7 +13,7 @@ response = Net::HTTP.get_response(url)
 
 result = JSON.parse(response.body)
 
-puts "Starting".green 
+puts "Starting\n".green 
 
 featured = result['data']['featured']['entries']
 daily = result['data']['daily']['entries']
