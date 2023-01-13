@@ -1,6 +1,6 @@
 # FortniteRubyShop
 
-A simple program made in Ruby (.ru) that print in console all cosmetics and bundles that are currently in the ItemShop.
+A simple program made in Ruby (.rb) that print in console all cosmetics and bundles that are currently in the ItemShop.
 
 ## Requirements
 
